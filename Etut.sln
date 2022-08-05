@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAExample", "CAExample\CAEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFAEtutForm", "WFAEtutForm\WFAEtutForm.csproj", "{D9F27C2A-4509-49A2-8AE5-D058D2F11F2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFAEtutForm2", "WFAEtutForm2\WFAEtutForm2.csproj", "{FA04F9B6-58BB-45CE-BAD3-19A6371A7E2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D9F27C2A-4509-49A2-8AE5-D058D2F11F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9F27C2A-4509-49A2-8AE5-D058D2F11F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9F27C2A-4509-49A2-8AE5-D058D2F11F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA04F9B6-58BB-45CE-BAD3-19A6371A7E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA04F9B6-58BB-45CE-BAD3-19A6371A7E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA04F9B6-58BB-45CE-BAD3-19A6371A7E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA04F9B6-58BB-45CE-BAD3-19A6371A7E2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
