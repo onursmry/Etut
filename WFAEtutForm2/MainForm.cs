@@ -20,6 +20,13 @@ namespace WFAEtutForm2
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(tbxName.Text) || string.IsNullOrEmpty(tbxDescription.Text))
+            {
+                MessageBox.Show("Lütfen Tüm Alanları Doldurunuz");
+                return;
+            }
+            
+
             CategoryRepository categoryRepository = new CategoryRepository();
             categoryRepository.CreateCategory(tbxName.Text, tbxDescription.Text);
             categoryRepository.ListCategories(listView1);
