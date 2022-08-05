@@ -1,4 +1,5 @@
-﻿using WFAEtutForm2.Entities.Abstract;
+﻿using System.Windows.Forms;
+using WFAEtutForm2.Entities.Abstract;
 
 namespace WFAEtutForm2.Entities.Concrete
 {
